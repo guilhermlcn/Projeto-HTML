@@ -106,15 +106,39 @@ a:hover {
 }
 #quadro_azul{
     background-color: #1BB4E8;
-    display: inline-block;
 }
 
 #quadro_marrom{
     background-color: #C6B07F;
+
 }
 
 #destino{
-    display: inline-block;
-    position: relative;
+    width: 415px;
+    
 }
 
+#frota{
+    width: 415px;
+    
+}
+
+#texto{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#bc_img{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+#img_destino{
+    position: relative;
+    top: 12px;
+    left: 5px;
+}
